@@ -1,0 +1,42 @@
+.NavigationLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff6423;
+    list-style: none;
+    color: white;
+}
+
+.Links{
+    color: white;
+}
+.nav-left h1 {
+    margin: 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation-link-goto {
+    color: white;
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navigation-link-goto:hover {
+    background-color: #cd4b17;
+}
+
+.Logo{
+    color: white;
+}
+
+.iconlink{
+    color: white;
+}

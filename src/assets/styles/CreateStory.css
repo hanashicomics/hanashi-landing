@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+    flex-wrap: wrap; /* allow wrap for responsiveness */
+}
+
+.imageContainer {
+    flex: 1;
+    text-align: center;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.TextContainer {
+    flex: 2;
+    min-width: 280px;
+}
+
+.TextContainer p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.TextContainer label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.TextContainer input[type="text"],
+.TextContainer textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    background-color: #ff6423;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d6551a;
+}
+
+/* === Responsive Media Query === */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .TextContainer, .imageContainer {
+        flex: unset;
+        width: 100%;
+    }
+
+    .imageContainer img {
+        max-width: 100%;
+    }
+}
