@@ -11,10 +11,12 @@ export default function RootNavigation(){
                     </h1>
                 </div>
                 <div className="nav">
-                    <Link to={'/pricing'} className="linkButton">Pricing</Link>
+
                 </div>
+
                 <div className="nav-right">
-                    <Link to={'/profile'} className="navigation-link-goto">Go to Dashboard</Link>
+                    <Link to={'/pricing'} className="Links">Pricing</Link>
+                    <Link to={'/faq'} className="Links">FAQ</Link>
                 </div>
             </div>
         </>
