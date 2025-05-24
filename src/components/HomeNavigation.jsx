@@ -15,8 +15,8 @@ export default function RootNavigation(){
                 </div>
 
                 <div className="nav-right">
-                    <Link to={'/pricing'} className="Links">Pricing</Link>
-                    <Link to={'/faq'} className="Links">FAQ</Link>
+                    {/*<Link to={'/pricing'} className="Links">Pricing</Link>*/}
+                    {/*<Link to={'/faq'} className="Links">FAQ</Link>*/}
                 </div>
             </div>
         </>
