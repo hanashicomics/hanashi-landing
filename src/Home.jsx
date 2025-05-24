@@ -10,6 +10,7 @@ export default function Home(){
                     <h1>All Your Stories, Anywhere, Anytime</h1>
                     <p>Capture, build, and organize your stories on the go — whether you&#39;re brainstorming a new world or outlining your next masterpiece.</p>
                     <Link to={"/signup"} className="get-started-button">Get Started</Link>
+
                 </header>
 
                 <section className="features">
@@ -22,10 +23,24 @@ export default function Home(){
                         <p>Responsive design lets you access your stories from any device — phone, tablet, or desktop.</p>
                     </div>
                     <div className="feature">
-                        <h2>Stay Organized</h2>
-                        <p>Visual timelines, neat exports, and intuitive structure keep your ideas in check.</p>
+                        <h2>Effortless Navigation</h2>
+                        <p>Easily switch between your stories, arcs, chapters, characters and locations.</p>
                     </div>
                 </section>
+
+                <section className="newsletter">
+                    <h2>Stay in the Loop</h2>
+                    <p>Get tips, updates, and exclusive content delivered straight to your inbox.</p>
+                    <a
+                        href="https://newsletter.page/hanashii"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="newsletter-button"
+                    >
+                        Join the Newsletter
+                    </a>
+                </section>
+
             </div>
             <Footer />
         </>

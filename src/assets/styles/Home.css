@@ -71,3 +71,41 @@
         max-width: 300px;
     }
 }
+
+/* Newsletter section */
+.newsletter {
+    margin-top: 80px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ff6423;
+}
+
+.newsletter p {
+    font-size: 1rem;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+}
+
+.newsletter-button {
+    background-color: #ff6423;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.newsletter-button:hover {
+    background-color: #cd4b17;
+}
