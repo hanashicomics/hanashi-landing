@@ -109,3 +109,52 @@
 .newsletter-button:hover {
     background-color: #cd4b17;
 }
+
+.feature-highlight {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 0 20px;
+}
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.feature-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-image {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.feature-image-pc {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.feature-text {
+    max-width: 500px;
+}
+
+.feature-text h2 {
+    font-size: 1.75rem;
+    color: #ff6423;
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    font-size: 1rem;
+    color: #d0d0d0;
+}

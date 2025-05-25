@@ -28,6 +28,34 @@ export default function Home(){
                     </div>
                 </section>
 
+                <section className="feature-highlight">
+                    <div className="feature-row">
+                        <img src="src/assets/img/createstory-cropped.png" alt="Create Story" className="feature-image-pc" />
+                        <div className="feature-text">
+                            <h2>Create Stories</h2>
+                            <p>Tailor your writing space with story-building tools.</p>
+                        </div>
+                    </div>
+
+                    <div className="feature-row">
+                        <div className="feature-text">
+                            <img src="src/assets/img/stories.png" alt="View Stories" className="feature-image" />
+                            <h2>All Your Stories, Safely Stored</h2>
+                            <p>Never lose your progress. Your stories are automatically saved and backed up in the cloud.</p>
+                        </div>
+
+                    </div>
+
+                    <div className="feature-row">
+                        <img src="src/assets/img/char.gif" alt="Create Character" className="feature-image" />
+                        <div className="feature-text">
+                            <h2>Create Characters</h2>
+                            <p>Design and bring your characters to life with detailed profiles and unique backstories to
+                                make them unforgettable.</p>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="newsletter">
                     <h2>Stay in the Loop</h2>
                     <p>Get tips, updates, and exclusive content delivered straight to your inbox.</p>
