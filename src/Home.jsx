@@ -11,7 +11,7 @@ export default function Home(){
                         <div className="hero-text">
                             <h1>All Your Stories, Anywhere, Anytime</h1>
                             <p>Capture, build, and organize your stories on the go — whether you're brainstorming a new world or outlining your next masterpiece.</p>
-                            <a href="https://hanashi.website/signup" className="get-started-button">Get Started</a>
+                            <a href="https://hanashi.website/signup" target="_blank" className="get-started-button">Get Started</a>
                         </div>
                         <img src="src/assets/img/android.png" alt="Hero Preview" className="hero-image" />
                     </div>
