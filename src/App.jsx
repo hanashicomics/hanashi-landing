@@ -6,6 +6,7 @@ import SignUp from "./components/SignUp.jsx";
 import PublicLayout from "./public layout/PublicLayout.jsx";
 import Pricing from "./components/Pricing.jsx";
 import Upgrade from "./components/Upgrade.jsx";
+import PrivacyPolicy from "./components/Privacy.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                       <Route path="/signup" element={<SignUp />} />
                       <Route path="/pricing" element={<Pricing/>}/>
                       <Route path="/upgrade" element={<Upgrade />} />
+                      <Route path="/privacy" element={<PrivacyPolicy/>} />
                   </Route>
               </Routes>
           </Router>

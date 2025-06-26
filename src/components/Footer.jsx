@@ -8,11 +8,11 @@ export default function Footer() {
                 <div className="footer-content">
                     <p>&copy; {new Date().getFullYear()} Hanashi. All rights reserved.</p>
 
-                    {/*<nav className="footer-links">*/}
-                    {/*    <Link to="/about">About</Link>*/}
-                    {/*    <Link to="/privacy">Privacy</Link>*/}
-                    {/*    <Link to="/terms">Terms</Link>*/}
-                    {/*</nav>*/}
+                    <nav className="footer-links">
+                        {/*<Link to="/about">About</Link>*/}
+                        <Link to="/privacy">Privacy</Link>
+                        {/*<Link to="/terms">Terms</Link>*/}
+                    </nav>
 
                     <div className="footer-socials">
                         <a href="https://x.com/hanashi_dev" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
