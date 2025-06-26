@@ -1,0 +1,51 @@
+.docs-container {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+    padding: 50px 20px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.docs-container h1 {
+    font-size: 2rem;
+    color: #ff6423;
+    margin-bottom: 10px;
+}
+
+.docs-container .subtitle {
+    font-size: 1rem;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
+
+.docs-container h2 {
+    color: #ff6423;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.docs-container ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.docs-container li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.docs-container a {
+    color: #ff6423;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.docs-container a:hover {
+    color: #cd4b17;
+}
+
+.docs-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d0d0d0;
+}
