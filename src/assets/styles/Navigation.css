@@ -2,41 +2,77 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #ff6423;
-    list-style: none;
+    background-color: #ff6423; /* Hanashi orange */
+    padding: 12px 32px;
     color: white;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
-.Links{
-    color: white;
-}
-.nav-left h1 {
-    margin: 0;
+/* Logo and title */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
+.nav-left img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.Logo:hover {
+    opacity: 0.85;
+}
+
+/* Center nav (if needed later) */
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Right-side buttons/links */
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
+}
+
+/* Text links */
+.Links,
+.iconlink,
+.navigation-link-goto {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    padding: 6px 12px;
+    border-radius: 5px;
 }
 
 .navigation-link-goto {
-    color: white;
-    padding: 6px 12px;
     border: 1px solid white;
-    border-radius: 5px;
-    text-decoration: none;
 }
 
-.navigation-link-goto:hover {
-    background-color: #cd4b17;
-}
-
-.Logo{
-    color: white;
-}
-
-.iconlink{
+.navigation-link-goto:hover,
+.Links:hover,
+.iconlink:hover {
+    background-color: #cd4b17; /* darker orange */
     color: white;
 }

@@ -6,19 +6,21 @@ export default function RootNavigation(){
         <>
             <div className="NavigationLinks">
                 <div className="nav-left">
-                    <h1>
-                        <Link to={'/'} className="Logo">Hanashi</Link>
-                    </h1>
-                </div>
-                <div className="nav">
-
+                    <img src={"h2.png"} alt={"Hanashi Logo"} />
+                    <Link to={'/'} className="Logo">Hanashi</Link>
                 </div>
 
                 <div className="nav-right">
-                    {/*<Link to={'/pricing'} className="Links">Pricing</Link>*/}
-                    {/*<Link to={'/faq'} className="Links">FAQ</Link>*/}
+                    {/*<Link to="/features" className="Links">Features</Link>*/}
+                    {/*<Link to="/docs" className="Links">Docs</Link>*/}
+                    <a href="https://hanashi.website/stories" className="navigation-link-goto">Go to Dashboard</a>
                 </div>
+
+                {/*<div className="nav-right">*/}
+                {/*    <Link to="/login" className="navigation-link-goto">Login</Link>*/}
+                {/*</div>*/}
             </div>
+
         </>
 
     )
