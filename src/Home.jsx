@@ -13,7 +13,7 @@ export default function Home(){
                             <p>Capture, build, and organize your stories on the go — whether you're brainstorming a new world or outlining your next masterpiece.</p>
                             <a href="https://hanashi.website/signup" target="_blank" className="get-started-button">Get Started</a>
                         </div>
-                        <img src="src/assets/img/android.png" alt="Hero Preview" className="hero-image" />
+                        <img src="/android.png" alt="Hero Preview" className="hero-image" />
                     </div>
                 </header>
 
