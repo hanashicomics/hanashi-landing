@@ -70,7 +70,7 @@ export default function Home(){
                     <div className="feature">
                         <i className="fa-solid fa-laptop feature-icon"></i>
                         <h2>Work From Anywhere</h2>
-                        <p>Responsive design lets you access your stories from any device — phone, tablet, or desktop.</p>
+                        <p>Access your stories from any device — phone, tablet, or desktop.</p>
                     </div>
                     <div className="feature">
                         <i className="fa-solid fa-compass feature-icon"></i>
